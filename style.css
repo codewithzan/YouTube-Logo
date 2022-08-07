@@ -1,0 +1,39 @@
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: #e9e7fe;
+    font-family: Arial;
+    box-sizing: border-box;
+    outline: none;
+  }
+  body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .youtube-logo {
+    display: flex;
+    border-radius: 45px;
+    box-shadow: 5px 5px 12px #6957f2;
+    padding: 40px 75px;
+    background-color: #b50c38;
+  }
+  .logo {
+    height: 0px;
+    width: 0px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 50px solid #f9f8ff;
+    background-color: #b50c38;
+  }
+  .youtube {
+    margin: 30px;
+    background-color: #f1f1fe;
+  }
+  .youtube p {
+    font-size: 140px;
+    font-weight: bold;
+    color: #060416;
+    text-shadow: 5px 5px 12px #6957f2;
+  }
